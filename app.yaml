@@ -1,0 +1,6 @@
+runtime: nodejs12
+
+service: next-demo
+handlers:
+- url: /.*
+  script: auto
